@@ -117,7 +117,7 @@ h1 {
 	position: absolute; 
 	margin-left: 0px; 
 	text-align: center; 
-	width: 435px; 
+	width: 450px; 
 	height: 380px; 
 	padding: 50px; 
 }
@@ -133,9 +133,8 @@ button {
 .container-two .top-right {
 	display: inline-block;  
 	position: absolute; 
-	width: 435px; 
+	width: 450px; 
 	margin-left: 450px; 
- 
 }
 
 .container-row-one {
@@ -166,7 +165,7 @@ button {
 .container-middle-img {
 	display: block;
 	height: 200px; 
-	width: 900px; 
+	width: 876px; 
 	margin: auto;
 	position: relative; 
 

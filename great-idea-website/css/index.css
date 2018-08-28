@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,158 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+h1 {
+	font-size: 40pt; 
+}
+.container-top {
+	display: block;
+	height: 100px; 
+	width: 900px; 
+	margin: 20px;
+	position: relative; 
+}
+.container-top header .top-nav {
+	display: inline-block; 
+	margin: 10px; 
+	width: 600px; 
+	position: absolute;  
+
+}
+.container-top header .top-nav a {
+	color: gray;
+	text-decoration: none;
+	padding: 10px; 
+	margin: 10px; 
+
+}
+
+.container-top header .logo {
+	position: absolute; 
+	display: inline-block;  
+	margin-left: 630px; 
+}
+
+/* .container {
+	border: 1px solid blue;
+	display: inline-block;
+	height: 400px; 
+	width: 900px; 
+	margin: 0 auto; 
+	position: relative; 
+
+} */
+.container-two {
+	display: inline-block;
+	height: 400px; 
+	width: 870px; 
+	margin: 30px; 
+	position: relative; 
+
+}
+.container-two .top-left {
+	display: inline-block; 
+	position: absolute; 
+	margin-left: 0px; 
+	text-align: center; 
+	width: 435px; 
+	height: 380px; 
+	padding: 50px; 
+}
+
+
+button {
+	background: white; 
+	border: solid black;
+	padding: 10px 40px;  
+
+}
+
+.container-two .top-right {
+	display: inline-block;  
+	position: absolute; 
+	width: 435px; 
+	margin-left: 450px; 
+ 
+}
+
+.container-row-one {
+	display: inline-block;
+	border-top: solid gray; 
+	height: 180px; 
+	width: 850px; 
+	margin: 30px; 
+	position: relative; 
+
+}
+
+.container-row-one .row-one-left {
+	position: absolute; 
+	display: inline-block; 
+	margin-left: 0px; 
+	width: 450px;
+	padding: 40px; 
+}
+.container-row-one .row-one-right {
+	position: absolute; 
+	display: inline-block; 
+	margin-left: 450px;   
+	width: 450px; 
+	padding: 40px; 
+}
+
+.container-middle-img {
+	display: inline-block;
+	height: 200px; 
+	width: 900px; 
+	margin: 20px; 
+	position: relative; 
+
+}
+
+.container-row-two {
+	display: inline-block;
+	height: 200px; 
+	width: 900px; 
+	margin: 20px; 
+	position: relative; 
+
+}
+.container-row-two .row-two-left {
+	display: inline-block;
+	position: absolute;  
+	margin-left: 0px; 
+	width: 300px; 
+	padding: 20px; 
+}
+.container-row-two .row-two-center {
+	display: inline-block; 
+	position: absolute;  
+	margin-left: 300px;
+	margin-right: 300px; 
+	width: 300px; 
+	padding: 20px; 
+}
+.container-row-two .row-two-right {
+	display: inline-block; 
+	position: absolute; 
+	margin-left: 600px; 
+	width: 300px; 
+	padding: 20px; 
+}
+
+.contact {
+	height: 160px; 
+	width: 900px; 
+	margin-left: 40px; 
+	margin-bottom: 10px; 
+	padding: 30px; 
+}
+.copyright {
+	border-top: solid gray; 
+	height: 50px; 
+	width: 900px; 
+	margin-left: 40px; 
+	margin-top: 10px; 
+	padding-top: 10px; 
+	text-align: center; 
+}

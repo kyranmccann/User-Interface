@@ -71,7 +71,7 @@ h1 {
 	display: block;
 	height: 100px; 
 	width: 900px; 
-	margin: 20px;
+	margin: auto;
 	position: relative; 
 }
 .container-top header .top-nav {
@@ -105,10 +105,10 @@ h1 {
 
 } */
 .container-two {
-	display: inline-block;
+	display: block;
 	height: 400px; 
 	width: 870px; 
-	margin: 30px; 
+	margin: auto;
 	position: relative; 
 
 }
@@ -139,11 +139,11 @@ button {
 }
 
 .container-row-one {
-	display: inline-block;
+	display: block;
 	border-top: solid gray; 
 	height: 180px; 
 	width: 850px; 
-	margin: 30px; 
+	margin: auto;
 	position: relative; 
 
 }
@@ -164,19 +164,19 @@ button {
 }
 
 .container-middle-img {
-	display: inline-block;
+	display: block;
 	height: 200px; 
 	width: 900px; 
-	margin: 20px; 
+	margin: auto;
 	position: relative; 
 
 }
 
 .container-row-two {
-	display: inline-block;
+	display: block;
 	height: 200px; 
 	width: 900px; 
-	margin: 20px; 
+	margin: auto;
 	position: relative; 
 
 }
@@ -206,16 +206,14 @@ button {
 .contact {
 	height: 160px; 
 	width: 900px; 
-	margin-left: 40px; 
-	margin-bottom: 10px; 
+	margin: 0 auto;
 	padding: 30px; 
 }
 .copyright {
 	border-top: solid gray; 
 	height: 50px; 
 	width: 900px; 
-	margin-left: 40px; 
-	margin-top: 10px; 
+	margin: 0 auto;
 	padding-top: 10px; 
 	text-align: center; 
 }

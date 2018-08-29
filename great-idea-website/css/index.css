@@ -72,6 +72,8 @@ h1 {
 	height: 100px; 
 	width: 900px; 
 	margin: 0 auto;
+	padding: 10px; 
+	background: rbg(0,197,255); 
 	position: relative; 
 }
 .container-top header .top-nav {
@@ -85,14 +87,14 @@ h1 {
 	color: gray;
 	text-decoration: none;
 	padding: 10px; 
-	margin: 10px; 
+	margin: 12px; 
 
 }
 
 .container-top header .logo {
 	position: absolute; 
 	display: inline-block;  
-	margin-left: 630px; 
+	margin-left: 640px; 
 }
 
 /* .container {
@@ -152,14 +154,16 @@ button {
 	display: inline-block; 
 	margin-left: 0px; 
 	width: 450px;
-	padding: 40px; 
+	padding-top: 20px; 
+	padding-bottom: 20px;
 }
 .container-row-one .row-one-right {
 	position: absolute; 
 	display: inline-block; 
 	margin-left: 450px;   
 	width: 450px; 
-	padding: 40px 80px 40px 40px; 
+	padding-top: 20px; 
+	padding-bottom: 20px;
 }
 
 .container-middle-img {
@@ -184,7 +188,7 @@ button {
 	position: absolute;  
 	margin-left: 0px; 
 	width: 300px; 
-	padding: 20px; 
+	padding:20px 10px; 
 }
 .container-row-two .row-two-center {
 	display: inline-block; 
@@ -192,14 +196,14 @@ button {
 	margin-left: 300px;
 	margin-right: 300px; 
 	width: 300px; 
-	padding: 20px; 
+	padding:20px 10px; 
 }
 .container-row-two .row-two-right {
 	display: inline-block; 
 	position: absolute; 
 	margin-left: 600px; 
 	width: 300px; 
-	padding: 20px; 
+	padding:20px 10px; 
 }
 
 .contact {
@@ -209,8 +213,10 @@ button {
 	padding: 10px; 
 	line-height: 1.6; 
 }
+.contact-info {
+	line-height:2.0;
+}
 .copyright {
-	border-top: solid gray; 
 	height: 50px; 
 	width: 900px; 
 	margin: 0 auto;
